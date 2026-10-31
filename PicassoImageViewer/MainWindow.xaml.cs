@@ -1004,10 +1004,12 @@ namespace PicassoImageViewer
             if (string.IsNullOrEmpty(_currentImagePath) || _image?.Bitmap == null)
             {
                 currentImageNameLabel.Visibility = Visibility.Collapsed;
+                Title = GetResourceString("AppTitle");
                 return;
             }
 
             var fileInfo = new FileInfo(_currentImagePath);
+            Title = $"{fileInfo.Name} - {GetResourceString("AppTitle")}";
             currentImageNameLabel.Content = $"{fileInfo.Name} ({_image.Bitmap.Width} x {_image.Bitmap.Height})";
             currentImageNameLabel.Visibility = Visibility.Visible;
         }
