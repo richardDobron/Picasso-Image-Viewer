@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
 	<!-- 
     Microsoft ResX Schema 
@@ -166,7 +166,8 @@
     <value>Uloženie zlyhalo</value>
   </data>
 	<data name="UnableToSaveImage" xml:space="preserve">
-    <value>Nedá sa uložiť otočený obrázok.\n{0}</value>
+    <value>Nedá sa uložiť otočený obrázok.
+{0}</value>
   </data>
 	<data name="ColorPickerTitle" xml:space="preserve">
     <value>Kvapkadlo farieb</value>
@@ -185,5 +186,25 @@
   </data>
 	<data name="Print" xml:space="preserve">
     <value>Tlač</value>
+  </data>
+	<data name="RotationNotSaved" xml:space="preserve">
+    <value>Tento typ súboru sa nedá uložiť otočený, obrázok je otočený iba v prehliadači.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="UnableToOpenImage" xml:space="preserve">
+    <value>Vybraný obrázok sa nedá otvoriť.
+{0}</value>
+  </data>
+  <data name="UnableToDeleteImage" xml:space="preserve">
+    <value>Obrázok sa nedá vymazať.
+{0}</value>
+  </data>
+  <data name="DeleteImageTitle" xml:space="preserve">
+    <value>Vymazať obrázok</value>
+  </data>
+  <data name="DeleteImageConfirmation" xml:space="preserve">
+    <value>Presunúť „{0}“ do koša?</value>
   </data>
 </root>

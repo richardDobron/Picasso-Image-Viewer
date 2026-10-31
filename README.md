@@ -4,7 +4,7 @@
 
 # 🖼️ Picasso Image Viewer
 
-A powerful local image viewer for Windows made with C#. It supports `JPG`, `JPEG`, `PNG`, `GIF`, `BMP`, `ICO`, `TIFF` and `WMF` formats.
+A powerful local image viewer for Windows made with C#. It supports `JPG`, `JPEG`, `PNG`, `GIF` (including animated), `BMP`, `ICO`, `TIFF` and `WMF` formats.
 
 ![Preview](preview.png)
 
@@ -23,12 +23,18 @@ Picasso can be launched by:
 - **Slideshow** — View images in a full-screen slideshow.
 - **Navigation** — Move quickly between images in a folder.
 - **Zoom** — Zoom in and out for a closer view.
-- **Rotation** — Rotate images left or right.
+- **Rotation** — Rotate images left or right. JPEG and TIFF rotations are lossless and keep EXIF metadata.
 - **Color picker** — Pick colors directly from the image.
 
 ## How to Install?
 
-Build the app from source, or download a prebuilt version from the [releases page](https://github.com/richardDobron/Picasso-Image-Viewer/releases).
+Download a prebuilt version from the [releases page](https://github.com/richardDobron/Picasso-Image-Viewer/releases), or build it from source (requires the .NET SDK and .NET Framework 4.8):
+
+```bash
+dotnet build PicassoImageViewer.sln --configuration Release
+```
+
+The app is written to `PicassoImageViewer/bin/Release/net48/`.
 
 
 ## License

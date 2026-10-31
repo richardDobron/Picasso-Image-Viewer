@@ -166,7 +166,8 @@
     <value>Save failed</value>
   </data>
   <data name="UnableToSaveImage" xml:space="preserve">
-    <value>Unable to save the rotated image.\n{0}</value>
+    <value>Unable to save the rotated image.
+{0}</value>
   </data>
   <data name="ColorPickerTitle" xml:space="preserve">
     <value>Color Picker</value>
@@ -185,5 +186,25 @@
   </data>
   <data name="Print" xml:space="preserve">
     <value>Print</value>
+  </data>
+  <data name="RotationNotSaved" xml:space="preserve">
+    <value>This file type can't be saved rotated, so the image is only rotated in the viewer.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="UnableToOpenImage" xml:space="preserve">
+    <value>Unable to open the selected image.
+{0}</value>
+  </data>
+  <data name="UnableToDeleteImage" xml:space="preserve">
+    <value>Unable to delete the image.
+{0}</value>
+  </data>
+  <data name="DeleteImageTitle" xml:space="preserve">
+    <value>Delete image</value>
+  </data>
+  <data name="DeleteImageConfirmation" xml:space="preserve">
+    <value>Move "{0}" to the Recycle Bin?</value>
   </data>
 </root>

@@ -205,6 +205,15 @@ namespace PicassoImageViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This file type can&apos;t be saved rotated, so the image is only rotated in the viewer..
+        /// </summary>
+        internal static string RotationNotSaved {
+            get {
+                return ResourceManager.GetString("RotationNotSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rotate Counter-Clockwise.
         /// </summary>
         internal static string RotateLeft {
@@ -264,6 +273,51 @@ namespace PicassoImageViewer.Properties {
         internal static string ZoomRefresh {
             get {
                 return ResourceManager.GetString("ZoomRefresh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unable to open the selected image. {0}.
+        /// </summary>
+        internal static string UnableToOpenImage {
+            get {
+                return ResourceManager.GetString("UnableToOpenImage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unable to delete the image. {0}.
+        /// </summary>
+        internal static string UnableToDeleteImage {
+            get {
+                return ResourceManager.GetString("UnableToDeleteImage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete image.
+        /// </summary>
+        internal static string DeleteImageTitle {
+            get {
+                return ResourceManager.GetString("DeleteImageTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move &quot;{0}&quot; to the Recycle Bin?.
+        /// </summary>
+        internal static string DeleteImageConfirmation {
+            get {
+                return ResourceManager.GetString("DeleteImageConfirmation", resourceCulture);
             }
         }
     }
