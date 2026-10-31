@@ -95,6 +95,12 @@ namespace PicassoImageViewer
                 OpenImage(Args[1]);
         }
 
+        public void OpenImageFromExternalRequest(string path)
+        {
+            StopSlideshow();
+            OpenImage(path);
+        }
+
         public void OpenImage(string path)
         {
             if (string.IsNullOrWhiteSpace(path) || !File.Exists(path))
